@@ -1,0 +1,119 @@
+@media (max-width: 1050px) {
+  main {
+    width: 90%;
+    background-color: #2410df41;
+  }
+  .sidebar-menu-navegacao {
+    width: 100%;
+  }
+  .sidebar-menu-navegacao img {
+    width: 70px;
+    height: 70px;
+  }
+  .user h2 {
+    font-size: 20px;
+  }
+  #btn-pause {
+    font-size: 18px;
+    padding: 2px;
+  }
+  .cabecalho-info-musicas {
+    padding: 10px;
+  }
+  .cabecalho-info-musicas p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .lista-de-musicas {
+    width: 100%;
+  }
+  .lista-de-musicas li {
+    padding: 10px;
+    width: 100%;
+  }
+  .lista-de-musicas p {
+    width: 25%;
+    font-size: 16px;
+  }
+
+  .area-player {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 30px;
+  }
+  .info-musica-atual {
+    display: flex;
+  }
+  .info-album {
+    padding: 10px;
+  }
+  #foto-album{
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 2px 8px 15px #393b39;
+  }
+  .area-player-controls {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  #btn-control-prev,
+  #btn-control-play,
+  #btn-control-next {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .area-player-volume {
+    align-items: center;
+    justify-content: center;
+  }
+  .area-player-volume .volume {
+    font-size: 20px;
+    color: #d2e710;
+  }
+}
+
+@media (max-width: 650px) {
+  main{
+    background-color: rgb(2, 11, 58);
+    margin:100px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 12px 15px 8px 5px #0deb0d;
+  }
+  .sidebar-menu-navegacao ,.area-player{
+    background-color:transparent;
+
+  }
+  .sidebar-menu-navegacao{
+    margin-bottom: 50px;
+  }
+  .sidebar-menu-navegacao img {
+    width: 70px;
+    height: 70px;
+  }
+  .user h2 {
+    font-size: 18px;
+  }
+  .cabecalho-info-musicas, .lista-de-musicas , #btn-pause{
+    display: none;
+  }
+  .info-musica-atual{
+    display: block;
+    text-align: center;
+    
+  }
+  .info-album{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  #foto-album{
+    width: 200px;
+  }
+}

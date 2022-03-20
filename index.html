@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musica Play</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? family = Gothic + A1: wght @ 300 & display = swap "
+      rel=" stylesheet "
+    />
+    <link rel="stylesheet" href="./src/css/layout.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="shortcut icon" href="src/img/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <header class="sidebar-menu-navegacao">
+        <img
+          class="logo"
+          src="./src/img/logo.png"
+          alt="Logo"
+          
+        />
+        <div class="cabecalho-musicas">
+          <div class="user">
+            <img src="./src/img/user.png" alt="Imagem do usuário" />
+            <h2>User</h2>
+          </div>
+        </div>
+      </header>
+
+      <section class="secao-musicas">
+        <div class="area-lista-musicas">
+          <div class="btn">
+            <button id="btn-pause">
+              Play
+              <ion-icon name="play"></ion-icon>
+              <ion-icon name="pause"></ion-icon>
+              Pause
+            </button>
+          </div>
+          <div class="cabecalho-info-musicas">
+            <p class="primeiro-item">Title</p>
+            <p>Artist</p>
+            <p>Albúm</p>
+          </div>
+          <ul class="lista-de-musicas">
+           
+          </ul>
+        </div>
+      </section>
+
+      <section class="area-player">
+        <audio id="toca-audio" src=""></audio>
+
+        <div class="info-musica-atual">
+          <figure class="imagem-album">
+            <img id="foto-album" src="./src/img/album.png" alt="Album" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="info-album">
+            <h2 id="nome-musica"></h2>
+            <p id="nome-album"></p>
+          </div>
+        </div>
+
+        <div class="area-player-controls">
+          <button id="btn-control-prev"><ion-icon name="rewind"></ion-icon></button>
+          <button id="btn-control-play"><ion-icon name="play-circle"></ion-icon></button>
+          <button id="btn-control-next"><ion-icon name="fastforward"></ion-icon></button>
+        </div>
+        <div class="area-player-volume">
+          <a href="" ><ion-icon class="volume" name="volume-high"></ion-icon></a>
+          <input type="range" max="1" value="1" step="0.1" />
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="src/js/scripts.js"></script>
+  </body>
+</html>
