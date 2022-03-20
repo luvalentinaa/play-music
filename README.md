@@ -8,7 +8,7 @@
 -HTML
 -CSS
 -JAVASCRIPT
+[<img src="gif-music.gif">]
 
-
-[<img src="Galaxy-Note-3-360x640.png">][<img src="Large-Screen-688x1031.png">]
+[<img src="Galaxy-Note-3-360x640.png">]
 
