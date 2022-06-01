@@ -1,12 +1,10 @@
-# Play Music 🎶
+# Play Music <img src="src/img/logo.png" width="60px">
 
-<a href="https://www.poftut.com" target="_blank">Acesse no Github pages <a/>
+<a href="https://luvalentinaa.github.io/play-music/" target="_blank" >Acesse no Github pages 🔗 <a/>
+
+  ## Uma aplicação onde você tem suas músicas e sons favoritos a sua dispoSição!
 
 
-<img src="src/img/logo.png">
-
-
-## Uma aplicação onde você tem suas músicas e sons favoritos a sua dispoSição!
 
 ## Linguagens utilizadas
 
